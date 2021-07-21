@@ -1,6 +1,8 @@
 
 .Main{
     display: flex;
+    width: auto;
+    height: auto;
     padding-left: 50px;
     background: #0E0E0E;
 }
@@ -56,6 +58,7 @@
         margin-right: 70px;
         .icon{
             margin-top: 10px;
+            margin-left: 12px;
         }
     }
     label{
@@ -120,6 +123,10 @@
     }
     .uploadbtn{
         margin-right: 10px;
+        img{
+            margin-top: 30px;
+            cursor: pointer;
+        }
     }
     .last{
         border: 1px solid #373A3F;

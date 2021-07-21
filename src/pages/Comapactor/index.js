@@ -3,6 +3,8 @@ import styles from './compactor.module.scss'
 import html2canvas from 'html2canvas'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTrashAlt} from "@fortawesome/free-solid-svg-icons";
+import button from '../../button.jpg';
+import button1 from '../../button1.jpg';
 
 const Compactor = () => {
     //test
@@ -63,10 +65,10 @@ const Compactor = () => {
            console.log(canvas);
        }
        }).then(canvas => {
-           const imgData = canvas.toDataURL('image/png')
+           const imgData = canvas.toDataURL('image/png',)
            const screenCaptureSource = imgData;
            const downloadLink = document.createElement('a');
-           const fileName = 'react-screen-capture.png';
+           const fileName = 'capture.png';
            downloadLink.href = screenCaptureSource;
            downloadLink.download = fileName;
            downloadLink.click();
@@ -101,10 +103,9 @@ const Compactor = () => {
                                    style={{display: 'none'}}
                                    name='layout'
                                    onChange={handleFileChange} />
-                            <button
-                                type="button"
-                                onClick={() => previewUploaderRef.current.click()}><p>Upload Image 1</p></button>
-                            <button type="button" onClick={() => layoutUploaderRef.current.click()}><p>Upload Image 2</p></button>
+                            <img src={button} onClick={() => previewUploaderRef.current.click()}/>
+
+                            <img src={button1} onClick={() => layoutUploaderRef.current.click()}/>
                         </div>
                         <div className={styles.last}>
                             <div className={styles.image}>
@@ -293,7 +294,7 @@ const Compactor = () => {
                             <option value='Visionary.png'> Visionary </option>
                         </select>
                     </div>
-                    
+
                     <div>
                         <label>Fur</label><br/>
                         <select name='fur' label='Fur' onChange={handleChange}>
@@ -316,7 +317,7 @@ const Compactor = () => {
                             <option value='Zombie.png'> Zombie </option>
                         </select>
                     </div>
-                    
+
                     <div>
                         <label>Background</label><br/>
                         <select name='background' onChange={handleChange}>

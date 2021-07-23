@@ -86,7 +86,7 @@ const Compactor = () => {
         })
     }
     return (
-        <div className={styles.Main} id="capture">
+        <div className={styles.Main}>
             <div className={styles.Forge}>
                 <div className={styles.middiv}>
                     <h2>The Forge</h2>

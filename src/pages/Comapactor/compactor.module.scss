@@ -1,144 +1,1250 @@
+@media screen and (min-width:100px) and (max-width:548px) {
 
-.Main{
-    display: flex;
-    padding-left: 50px;
-    background: #0E0E0E;
-}
+    .Main{
+        display: flex;
+        width: auto;
+        height: auto;
+        margin-left: -42px !important;
+        background: #0E0E0E;
+    }
 
-.container {
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    background: #222326;
-    h2{
-        //padding-top: 5px;
-        font-size: 45px;
-        color: white;
+    .container {
+        position: relative;
+        display: block;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            width: 65%;
+            left: 35px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
     }
-    img {
-        position: absolute;
-        width: 65%;
-        left: 35px;
-        border: 20px solid #373A3F;
-        border-radius: 20px;
-    }
-}
-.selector{
-    float: right;
-    background: #222326;
-    width: auto;
-    margin-right: 20px;
-    padding-right: 40px;
-    //padding-left: 10px;
-    .options{
-        padding-left: 40px;
-    }
-    button{
-        cursor: pointer;
-        background: transparent;
-        border: 2px solid wheat;
-        border-radius: 10px;
-        color:white;
-        width: 170px;
-        height: 40px;
-        margin-top: 10px;
-    }
-    p{
-        cursor: pointer;
-        background: transparent;
-        border: 2px solid wheat;
-        border-radius: 50%;
-        color:white;
-        width: 40px;
-        height: 40px;
-        margin-top: 10px;
+    .selector{
         float: right;
-        margin-right: 70px;
-        .icon{
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 170px;
+            height: 40px;
             margin-top: 10px;
         }
-    }
-    label{
-        color: white;
-        float: left;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    span{
-        color: white;
-        float: left;
-    }
-    h2{
-        font-size: 50px;
-        color: white;
-        font-weight: 400;
-        margin-bottom: 0px;
-    }
-    select{
-        width: 300px;
-        height: 40px;
-        border-radius: 9px;
-        padding-left: 10px;
-        margin-top: 4px;
-        background: #F0CD6F;
-    }
-}
-.Forge{
-    float: left;
-    background: #F0CD6F;
-    width: auto;
-    height: auto;
-    margin-bottom: 0px;
-    button{
         p{
-            writing-mode: vertical-rl;
-            text-align: center;
-            margin-left: 0px;
-            color: white;
-            font-size: 17px;
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 12px;
+            }
         }
-        cursor: pointer;
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+            width: 300px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: 100%;
         display: block;
-        background-color: #373A3F;
-        border: 1px solid black;
-        width: 35px;
-        height: 230px;
-        margin-bottom: 10px;
-        margin-top: 30px;
-        margin-left: 20px;
-        border-radius: 15px ;
-        transform: rotate(180deg);
-    }
-    h2{
-        font-size: 40px;
-        //padding: 13px;
-        text-align: start;
+
         margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
     }
-    .image{
-        background: #373A3F;
-    }
-    .uploadbtn{
-        margin-right: 10px;
-    }
-    .last{
-        border: 1px solid #373A3F;
-        background: #373A3F;
-        width: 250px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-    .second{
+
+}
+
+@media screen and (min-width:549px) and (max-width:1450px) {
+
+    .Main{
         display: flex;
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        background: #0E0E0E;
     }
-    .upload{
-        width: 200px;
-        height: 200px;
-        margin: 20px;
+
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            width: 65%;
+            left: 35px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
     }
-    .middiv{
-        padding: 15px;
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 170px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 12px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+            width: 300px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
+    }
+
+}
+@media screen and (min-width:428px) and (max-width:548px) {
+
+    .Main{
+        display: flex;
+        width: auto;
+        height: 905px;
+
+
+        background: #0E0E0E;
+    }
+
+    .container {
+        position: relative;
+        display: block;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            width: 115%;
+            height: 200px;
+            left: 35px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
+    }
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 95px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 63px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+
+            width: 213px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: 100%;
+        display: block;
+
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
+    }
+
+}
+@media screen and (min-width:100px) and (max-width:427px) {
+
+    .Main{
+        display: flex;
+        width: auto;
+        height:1105px;
+
+
+        background: #0E0E0E;
+    }
+
+    .container {
+        position: relative;
+        display: block;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            width: 115%;
+            height: 200px;
+            left: 35px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
+    }
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 95px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 63px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+
+            width: 213px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: 100%;
+        display: block;
+
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
+    }
+
+}
+
+
+@media screen and (min-width:2340px) and (max-width:2460px) {
+
+
+    .Main{
+        display: flex;
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        background: #0E0E0E;
+    }
+
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            max-width: 39%;
+            left: 505px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
+    }
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 170px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 12px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+            width: 300px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
+    }
+
+}
+@media screen and (min-width:2000px) and (max-width:2339px) {
+
+
+    .Main{
+        display: flex;
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        background: #0E0E0E;
+    }
+
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            max-width: 39%;
+            left: 405px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
+    }
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 170px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 12px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+            width: 300px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
+    }
+
+}
+@media screen and (min-width:1600px) and (max-width:1999px) {
+
+
+    .Main{
+        display: flex;
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        background: #0E0E0E;
+    }
+
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            max-width: 39%;
+            left: 305px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
+    }
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 170px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 12px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+            width: 300px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
+    }
+
+}
+@media screen and (min-width:1452px) and (max-width:1998px) {
+
+
+    .Main{
+        display: flex;
+        width: auto;
+        height: auto;
+        padding-left: 50px;
+        background: #0E0E0E;
+    }
+
+    .container {
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        background: #222326;
+        h2{
+            //padding-top: 5px;
+            font-size: 45px;
+            color: white;
+        }
+        img {
+            position: absolute;
+            max-width: 39%;
+            left: 235px;
+            border: 20px solid #373A3F;
+            border-radius: 20px;
+        }
+    }
+    .selector{
+        float: right;
+        background: #222326;
+        width: auto;
+        margin-right: 20px;
+        padding-right: 40px;
+        //padding-left: 10px;
+        .options{
+            padding-left: 40px;
+        }
+        button{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 10px;
+            color:white;
+            width: 170px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        p{
+            cursor: pointer;
+            background: transparent;
+            border: 2px solid wheat;
+            border-radius: 50%;
+            color:white;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+            float: right;
+            margin-right: 70px;
+            .icon{
+                margin-top: 10px;
+                margin-left: 12px;
+            }
+        }
+        label{
+            color: white;
+            float: left;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+        span{
+            color: white;
+            float: left;
+        }
+        h2{
+            font-size: 50px;
+            color: white;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+        select{
+            width: 300px;
+            height: 40px;
+            border-radius: 9px;
+            padding-left: 10px;
+            margin-top: 4px;
+            background: #F0CD6F;
+        }
+    }
+    .Forge{
+        float: left;
+        background: #F0CD6F;
+        width: auto;
+        height: auto;
+        margin-bottom: 0px;
+        button{
+            p{
+                writing-mode: vertical-rl;
+                text-align: center;
+                margin-left: 0px;
+                color: white;
+                font-size: 17px;
+            }
+            cursor: pointer;
+            display: block;
+            background-color: #373A3F;
+            border: 1px solid black;
+            width: 35px;
+            height: 230px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            margin-left: 20px;
+            border-radius: 15px ;
+            transform: rotate(180deg);
+        }
+        h2{
+            font-size: 40px;
+            //padding: 13px;
+            text-align: start;
+            margin-bottom: 0px;
+        }
+        .image{
+            background: #373A3F;
+        }
+        .uploadbtn{
+            margin-right: 10px;
+            img{
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+        .last{
+            border: 1px solid #373A3F;
+            background: #373A3F;
+            width: 250px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .second{
+            display: flex;
+        }
+        .upload{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        .middiv{
+            padding: 15px;
+        }
     }
 }

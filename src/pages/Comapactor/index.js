@@ -3,6 +3,8 @@ import styles from './compactor.module.scss'
 import html2canvas from 'html2canvas'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faTrashAlt} from "@fortawesome/free-solid-svg-icons";
+import button from '../../button.jpg';
+import button1 from '../../button1.jpg';
 
 const Compactor = () => {
     //test
@@ -53,24 +55,24 @@ const Compactor = () => {
     }
 
 
-   const  handleSave =  async ()=>{
+    const  handleSave =  async ()=>{
 
-       let element = document.getElementById('capture')
-       html2canvas(element,
-       {
-           useCORS: true,
-               onRendered: function(canvas) {
-           console.log(canvas);
-       }
-       }).then(canvas => {
+        let element = document.getElementById('capture')
+        html2canvas(element,
+            {
+                useCORS: true,
+                onRendered: function(canvas) {
+                    console.log(canvas);
+                }
+            }).then(canvas => {
            const imgData = canvas.toDataURL('image/png')
-           const screenCaptureSource = imgData;
-           const downloadLink = document.createElement('a');
-           const fileName = 'react-screen-capture.png';
-           downloadLink.href = screenCaptureSource;
-           downloadLink.download = fileName;
-           downloadLink.click();
-       });
+            const screenCaptureSource = imgData;
+            const downloadLink = document.createElement('a');
+            const fileName = 'capture.png';
+            downloadLink.href = screenCaptureSource;
+            downloadLink.download = fileName;
+            downloadLink.click();
+        });
     }
     const stateReset = ()=>{
         setState({...state,
@@ -84,7 +86,7 @@ const Compactor = () => {
         })
     }
     return (
-        <div className={styles.Main} id="capture">
+        <div className={styles.Main}>
             <div className={styles.Forge}>
                 <div className={styles.middiv}>
                     <h2>The Forge</h2>
@@ -101,10 +103,9 @@ const Compactor = () => {
                                    style={{display: 'none'}}
                                    name='layout'
                                    onChange={handleFileChange} />
-                            <button
-                                type="button"
-                                onClick={() => previewUploaderRef.current.click()}><p>Upload Image 1</p></button>
-                            <button type="button" onClick={() => layoutUploaderRef.current.click()}><p>Upload Image 2</p></button>
+                            <img src={button} onClick={() => previewUploaderRef.current.click()}/>
+
+                            <img src={button1} onClick={() => layoutUploaderRef.current.click()}/>
                         </div>
                         <div className={styles.last}>
                             <div className={styles.image}>
@@ -154,7 +155,7 @@ const Compactor = () => {
                 <div className={styles.options}>
 
 
-                <div>
+                    <div>
                         <label>Horn</label><br/>
                         <select name='horn' onChange={handleChange}>
                             <option value={null} disabled selected>Horn</option>
@@ -293,7 +294,7 @@ const Compactor = () => {
                             <option value='Visionary.png'> Visionary </option>
                         </select>
                     </div>
-                    
+
                     <div>
                         <label>Fur</label><br/>
                         <select name='fur' label='Fur' onChange={handleChange}>
@@ -316,7 +317,7 @@ const Compactor = () => {
                             <option value='Zombie.png'> Zombie </option>
                         </select>
                     </div>
-                    
+
                     <div>
                         <label>Background</label><br/>
                         <select name='background' onChange={handleChange}>
@@ -341,7 +342,7 @@ const Compactor = () => {
                 </div>
 
 
-                </div>
+            </div>
         </div>
     )
 }
